@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    background-color: #f8f8f8;
+}
+
+form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #e50914;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    font-size: 18px;
+}
