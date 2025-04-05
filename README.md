@@ -6,14 +6,14 @@ A content-based movie recommendation system built using the **Netflix Movies and
 
 ## 🔍 Features
 
-- 🔎 Search for any movie or show from the dataset
-- 🎯 Get top 5 similar recommendations instantly
-- 🧠 Content-based filtering using cosine similarity
-- 🌐 Clean web interface built with Flask and HTML
+- Search for any movie or show from the dataset
+- Get top 5 similar recommendations instantly
+- Content-based filtering using cosine similarity
+- Clean web interface built with Flask and HTML
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Pandas**
@@ -23,7 +23,7 @@ A content-based movie recommendation system built using the **Netflix Movies and
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Combines important features like `title`, `cast`, `director`, `genres`, and `description`
 2. Applies **TF-IDF Vectorization** to convert text to numbers
@@ -32,18 +32,39 @@ A content-based movie recommendation system built using the **Netflix Movies and
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 netflix-recommender/
+│
+├── app.py ─────────────▶ Flask application entry point
+├── recommender.py ─────▶ Core recommendation logic (TF-IDF + Cosine Similarity)
+├── requirements.txt ───▶ List of required Python libraries
+├── README.md ──────────▶ Project documentation
+├── .gitignore ─────────▶ Git ignored files
+│
 ├── dataset/
-│   └── netflix_titles.csv
-├── static/
-│   └── style.css
+│   └── netflix_titles.csv ─▶ Kaggle dataset
+│
 ├── templates/
-│   ├── index.html
-│   └── result.html
-├── app.py
-├── recommender.py
-├── requirements.txt
-└── README.md
+│   ├── index.html ──────▶ Search input page
+│   └── result.html ─────▶ Displays recommended movies
+│
+├── static/
+│   └── style.css ───────▶ Styling for the app
+│
+└── screenshots/
+    ├── home.png ────────▶ Screenshot of homepage
+    ├── search.png ──────▶ Screenshot while searching
+    └── result.png ──────▶ Screenshot of result page
 
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots\home.png)
+
+### Search Page
+![Search Page](screenshots\search.png)
+
+### Recommendations Page
+![Recommendations Page](screenshots\result.png)
