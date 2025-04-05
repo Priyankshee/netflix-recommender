@@ -61,10 +61,10 @@ netflix-recommender/
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots\home.png)
+![Home Page](screenshots/home.png)
 
 ### Search Page
-![Search Page](screenshots\search.png)
+![Search Page](screenshots/search.png)
 
 ### Recommendations Page
-![Recommendations Page](screenshots\result.png)
+![Recommendations Page](screenshots/result.png)
